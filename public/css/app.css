@@ -6,3 +6,28 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.profileImage {
+  max-block-size: 15em;
+}
+
+.icons {
+  max-block-size: 3em;
+}
+
+.iconContainer {
+  padding: 1em;
+}
