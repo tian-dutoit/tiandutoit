@@ -18,6 +18,8 @@ body {
   display: flex;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  justify-content: space-evenly;
   margin-bottom: 2em;
 }
 
@@ -26,6 +28,12 @@ body {
   flex-flow: column nowrap;
   max-width: 25em;
   margin: 2em;
+}
+
+.image {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
 }
 
 .profileImage {
