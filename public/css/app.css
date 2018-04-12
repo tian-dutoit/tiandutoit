@@ -17,11 +17,22 @@ body {
 .project {
   display: flex;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+.blurb {
+  display: flex; 
   flex-flow: column nowrap;
+  max-width: 25em;
+  margin: 2em;
 }
 
 .profileImage {
   max-block-size: 15em;
+}
+
+.projectImage {
+  max-block-size: 20em;
 }
 
 .icons {
