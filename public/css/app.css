@@ -17,17 +17,33 @@ body {
 .project {
   display: flex;
   align-items: center;
+  flex-flow: row wrap;
+  margin-bottom: 2em;
+}
+
+.blurb {
+  display: flex; 
   flex-flow: column nowrap;
+  max-width: 25em;
+  margin: 2em;
 }
 
 .profileImage {
   max-block-size: 15em;
 }
 
+.projectImage {
+  max-block-size: 20em;
+}
+
 .icons {
-  max-block-size: 3em;
+  max-block-size: 2em;
 }
 
 .iconContainer {
   padding: 1em;
+}
+
+hr {
+  width: 80%;
 }
