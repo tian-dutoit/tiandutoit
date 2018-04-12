@@ -20,7 +20,7 @@ const App = function () {
           <a href = 'http://www.marama.org.nz' target='_blank' rel='noopener noreferrer'>Deployed version</a>
           <a href = 'https://github.com/Marama-App/marama' target='_blank' rel='noopener noreferrer'>GitHub link</a>
         </div>
-        <div>
+        <div className = 'image'>
           <img className = 'projectImage' src = 'images/marama.png' />
         </div>
       </div>
@@ -31,7 +31,7 @@ const App = function () {
           <p>Blurb about Super</p>
           <a href = 'https://github.com/tian-dutoit/super' target='_blank' rel='noopener noreferrer'>GitHub link</a>
         </div>
-        <div>
+        <div className = 'image'>
           <img className = 'projectImage' src = 'images/super.png' />
         </div>
       </div>
@@ -42,7 +42,7 @@ const App = function () {
           <p>Blurb about bomb defuser</p>
           <a href = 'https://github.com/tian-dutoit/bomb-defuser' target='_blank' rel='noopener noreferrer'>GitHub link</a>
         </div>
-        <div>
+        <div className = 'image'>
           <img className = 'projectImage' src = 'images/bomb.png' />
         </div>
       </div>
