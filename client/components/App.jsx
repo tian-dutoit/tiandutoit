@@ -12,6 +12,7 @@ const App = function () {
           <a href='https://www.linkedin.com/in/tian-du-toit/' target='_blank' rel="noopener noreferrer"> <img className = 'icons' src='images/linkedin.png' /> </a>
         </div>
       </div>
+      <hr/>
       <h3>Marama</h3>
       <div className = 'project'>
         <div className = 'blurb'>
@@ -23,6 +24,7 @@ const App = function () {
           <img className = 'projectImage' src = 'images/marama.png' />
         </div>
       </div>
+      <hr/>
       <h3>Super</h3>
       <div className = 'project'>
         <div className = 'blurb'>
@@ -33,6 +35,7 @@ const App = function () {
           <img className = 'projectImage' src = 'images/super.png' />
         </div>
       </div>
+      <hr/>
       <h3>Bomb Defuser</h3>
       <div className = 'project'>
         <div className = 'blurb'>
