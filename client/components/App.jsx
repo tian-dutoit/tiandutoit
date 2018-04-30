@@ -25,6 +25,17 @@ const App = function () {
         </div>
       </div>
       <hr/>
+      <h3>Lightning</h3>
+      <div className = 'project'>
+        <div className = 'blurb'>
+          <p>Blurb about Lightning</p>
+          <a href = 'https://github.com/tian-dutoit/super' target='_blank' rel='noopener noreferrer'>GitHub link</a>
+        </div>
+        <div className = 'image'>
+          <img className = 'projectImage' src = '' />
+        </div>
+      </div>
+      <hr/>
       <h3>Super</h3>
       <div className = 'project'>
         <div className = 'blurb'>
